@@ -1,0 +1,27 @@
+{
+    "name": "@dropdump/puppeteer-personas",
+    "version": "0.0.0",
+    "scripts": {
+        "build": "rm -rf dist && parcel build"
+    },
+    "source": "lib/Browser.ts",
+    "main": "dist/index.js",
+    "private": true,
+    "targets": {
+        "main": {
+            "includeNodeModules": true,
+            "sourceMap": false
+        }
+    },
+    "engines": {
+        "node": "18"
+    },
+    "dependencies": {
+        "puppeteer": "^21.2.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.6.0",
+        "parcel": "^2.10.2",
+        "ts-node": "^10.9.1"
+    }
+}

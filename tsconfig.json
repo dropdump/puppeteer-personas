@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "target": "es2022",
+        // "verbatimModuleSyntax": true,
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "moduleDetection": "force",
+
+        /* strictness */
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+        "strictNullChecks": true,
+
+        /* transpiling with typescript */
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+
+        /* code runs in the DOM */
+        "lib": ["es2022", "dom"],
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "tests",
+        "**/lib/*.test.ts"
+    ],
+    "compileOnSave": false,
+}
